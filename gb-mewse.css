@@ -16,19 +16,16 @@
     --DefaultTechnicalFontFamily: "Share Tech Mono", monospace;
 }
 
-/* Force Core Stats into an even 2-column grid layout */
-#CoreStatsModule .Content,
-module#CoreStats .Content {
-    display: grid !important;
-    grid-template-columns: repeat(2, 1fr) !important;
+/* Force Core Stats Content (which is a Cluster) into 2 columns */
+#CoreStatsModule .Content.Cluster {
+    display: flex !important;
+    flex-wrap: wrap !important;
     gap: 0.5em !important;
 }
 
-/* Ensure individual cards fill the grid cells evenly */
-#CoreStatsModule .Card,
-module#CoreStats .Card {
-    width: 100% !important;
-    margin: 0 !important;
+#CoreStatsModule .Content.Cluster > .Card {
+    /* Sets each card to take up exactly half of the row minus the gap */
+    flex: 1 1 calc(50% - 0.25em) !important;
     box-sizing: border-box !important;
 }
 
