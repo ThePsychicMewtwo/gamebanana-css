@@ -1,8 +1,8 @@
 body {
-    background: url('https://thepsychicmewtwo.github.io/gamebanana-css/assets/mewtwogalaxy.jpg');
+    background: url('https://thepsychicmewtwo.github.io/gamebanana-css/assets/starbasesnow.jpg');
     background-position: top center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-repeat: repeat-y;
     background-attachment: scroll;
-    background-color: #0d0b18;
+    background-color: #120d26;
 }
