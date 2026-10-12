@@ -1,6 +1,6 @@
 :root {
 	--BodyBackground: #100D18;
-	--BodyWrapperBackground: #1B1528;
+	--BodyWrapperBackground: rgba(27, 21, 40, 0.8);
 	--NavPaneBackgroundColor: #100D18;
 	--InputBackgroundColor: #302342;
 	--TabBorder: #241A32;
