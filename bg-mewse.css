@@ -1,0 +1,8 @@
+body {
+    background: url('https://thepsychicmewtwo.github.io/gamebanana-css/assets/mewtwogalaxy.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+}
