@@ -1,3 +1,5 @@
+@import url('https://thepsychicmewtwo.github.io/gamebanana-css/gb-main.css');
+
 :root {
 	--BodyBackground: #100D18;
 	--BodyWrapperBackground: rgba(27, 21, 40, 0.8);
@@ -16,30 +18,24 @@
     --DefaultTechnicalFontFamily: "Share Tech Mono", monospace;
 }
 
-#CoreStatsModule .Content.Cluster {
-    display: grid !important;
-    grid-template-columns: repeat(2, 1fr) !important;
-    gap: 0.5em !important;
+img, spriteIcon, .SpriteIcon, #SubNavigator li spriteIcon, #SubNavigator li:hover spriteIcon, button spriteIcon, button:hover spriteIcon, .ButtonLike spriteIcon, .ButtonLike:hover spriteIcon, .Record .Stats spriteIcon, .PostFooter, span.stats-icon>img {
+	filter: grayscale(1) sepia(1) hue-rotate(225deg) saturate(1.8) brightness(0.85);
 }
 
-#CoreStatsModule .Content.Cluster > .Card {
-    width: 100% !important;
-    margin: 0 !important;
-    box-sizing: border-box !important;
+img.AvatarImage, .Avatar img, img.Upic, img.PreviewImage, img.GameIcon {
+	filter: none;
 }
 
-#CoreStatsModule .Content.Cluster > .Card:last-child {
-    grid-column: 1 / -1 !important;
-    width: 50% !important;
-    margin-inline: auto !important;
+a, .Linklike, .Name, #PageFooter #ImportantLinks li #AddIdeaLink, h4.bmGuardianSubTitle {
+	color: var(--DefaultBlueColor);
+	text-shadow: 0 0 0.15em color-mix(in srgb, currentColor 85%, white);
 }
 
-#BuddiesModule .AutoGrid.AvatarGrid {
-    display: grid !important;
-    grid-template-columns: repeat(5, 1fr) !important;
-    gap: 0.25em !important;
+header#MainContentHeader {
+    background: url('');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-#BuddiesModule .AutoGrid.AvatarGrid > div {
-    min-width: 0 !important;
-}
+/* Credits to MythsList for some code lines */
