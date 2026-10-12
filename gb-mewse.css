@@ -1,0 +1,17 @@
+:root {
+	--BodyBackground: #100D18;
+	--BodyWrapperBackground: #1B1528;
+	--NavPaneBackgroundColor: #100D18;
+	--InputBackgroundColor: #302342;
+	--TabBorder: #241A32;
+	--TabBackground:#302342;
+	--ButtonBackground: linear-gradient(180deg, #594078, #302342);
+	--DefaultBlueColor: #A77BEB;
+	--DefaultRedColor: #C5A7FF;
+	--DefaultGreenColor: #D7C4FF;
+	--LinkHoverColor: #E18BFF;
+	--SubNavigatorActiveTabFontColor: #E18BFF;
+	--SubNavigatorActiveTabBorderColor: #E18BFF;
+    --DefaultTextFontFamily: "Exo 2", sans-serif;
+    --DefaultTechnicalFontFamily: "Share Tech Mono", monospace;
+}
