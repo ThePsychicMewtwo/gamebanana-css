@@ -16,24 +16,24 @@
     --DefaultTechnicalFontFamily: "Share Tech Mono", monospace;
 }
 
-#CoreStatsModule .Content.Cluster {
+#CoreStatsModule.PageModule .Content.Cluster {
     display: flex !important;
     flex-wrap: wrap !important;
     gap: 0.5em !important;
 }
 
-#CoreStatsModule .Content.Cluster > .Card {
+#CoreStatsModule.PageModule .Content.Cluster > .Card {
     flex: 1 1 calc(50% - 0.25em) !important;
     box-sizing: border-box !important;
 }
 
-#CoreStatsModule .Content.Cluster > .Card:last-child {
+#CoreStatsModule.PageModule .Content.Cluster > .Card:last-child {
     margin-left: auto !important;
     margin-right: auto !important;
 }
 
-#BuddiesModule .Grid,
-#BuddiesModule ul {
+#BuddiesModule.PageModule .Grid,
+#BuddiesModule.PageModule ul {
     display: grid !important;
     grid-template-columns: repeat(5, 1fr) !important;
     gap: 0.25em !important;
