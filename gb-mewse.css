@@ -17,25 +17,24 @@
 }
 
 #CoreStatsModule .Content.Cluster {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5em;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 0.5em !important;
 }
 
 #CoreStatsModule .Content.Cluster > .Card {
-    flex: 1 1 calc(50% - 0.25em);
-    box-sizing: border-box;
+    flex: 1 1 calc(50% - 0.25em) !important;
+    box-sizing: border-box !important;
 }
 
-/* Center the last card if it sits on its own row */
 #CoreStatsModule .Content.Cluster > .Card:last-child {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 
 #BuddiesModule .Grid,
 #BuddiesModule ul {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 0.25em;
+    display: grid !important;
+    grid-template-columns: repeat(5, 1fr) !important;
+    gap: 0.25em !important;
 }
