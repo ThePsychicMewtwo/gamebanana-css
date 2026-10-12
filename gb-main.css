@@ -5,30 +5,47 @@
 	opacity: 0;
 }
 
+/* CORE STATS */
 #CoreStatsModule .Content.Cluster {
-    display: grid !important;
-    grid-template-columns: repeat(2, 1fr) !important;
-    gap: 0.5em !important;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5em;
 }
 
 #CoreStatsModule .Content.Cluster > .Card {
-    width: 100% !important;
-    margin: 0 !important;
-    box-sizing: border-box !important;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 #CoreStatsModule .Content.Cluster > .Card:last-child {
-    grid-column: 1 / -1 !important;
-    width: 50% !important;
-    margin-inline: auto !important;
+    grid-column: 1 / -1;
+    width: 50%;
+    margin-inline: auto;
 }
 
+/* BUDDIES */
 #BuddiesModule .AutoGrid.AvatarGrid {
-    display: grid !important;
-    grid-template-columns: repeat(5, 1fr) !important;
-    gap: 0.25em !important;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0.25em;
 }
 
 #BuddiesModule .AutoGrid.AvatarGrid > div {
-    min-width: 0 !important;
+    min-width: 0;
+}
+
+/* PORTFOLIO */
+#Portfolio .RecordsGrid {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 0.5em;
+}
+
+#Portfolio .RecordsGrid > .Record {
+    flex: 0 0 calc(50% - 0.25em);
+    min-width: 0;
+    scroll-snap-align: start;
 }
