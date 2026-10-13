@@ -1,4 +1,4 @@
-@import url('https://thepsychicmewtwo.github.io/gamebanana-css/gb-main.css');
+@import url('https://thepsychicmewtwo.github.io/gamebanana-css/mewse-main.css');
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700&family=JetBrains+Mono&display=swap');
 
 :root {
@@ -33,7 +33,7 @@ a, .Linklike, .Name, #PageFooter #ImportantLinks li #AddIdeaLink, h4.bmGuardianS
 }
 
 header#MainContentHeader {
-    background: url('https://thepsychicmewtwo.github.io/gamebanana-css/assets/mewtwomatrix.gif');
+    background: url('https://thepsychicmewtwo.github.io/gamebanana-css/assets/mewtwo/mewtwomatrix.gif');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
