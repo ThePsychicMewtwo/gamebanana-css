@@ -1,0 +1,31 @@
+@import url('https://thepsychicmewtwo.github.io/gamebanana-css/browsing-main.css');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Jura:wght@400;500;600;700&display=swap');
+
+:root {
+    	--BodyBackground: #071725;
+    	--BodyWrapperBackground: rgba(11 ,36, 56, 0.8);
+    	--NavPaneBackgroundColor: #081A2A;
+    	--InputBackgroundColor: #163A54;
+    	--TabBorder: #102D43;
+    	--TabBackground: #17415D;
+    	--ButtonBackground: linear-gradient(180deg, #246184, #12364F);
+    	--DefaultBlueColor: #35BDEB;
+    	--DefaultRedColor: #7DDCFF;
+    	--DefaultGreenColor: #B6F0FF;
+    	--LinkHoverColor: #A5EDFF;
+    	--SubNavigatorActiveTabFontColor: #7DDCFF;
+    	--SubNavigatorActiveTabBorderColor: #35BDEB;
+	--DefaultTextFontFamily: "Jura", sans-serif;
+	--DefaultTechnicalFontFamily: "DM Mono", monospace;
+}
+
+a, .Linklike, .Name, #PageFooter #ImportantLinks li #AddIdeaLink, h4.bmGuardianSubTitle {
+	color: var(--DefaultBlueColor);
+	text-shadow: 0 0 0.15em color-mix(in srgb, currentColor 85%, white);
+}
+
+#HeadlineBackground {
+    content: url('https://thepsychicmewtwo.github.io/gamebanana-css/assets/mewtwo/mewfloat.gif');
+    width: 100%;
+    opacity: 80%;
+}
