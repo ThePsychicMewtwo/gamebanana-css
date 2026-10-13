@@ -3,7 +3,7 @@
 
 :root {
     	--BodyBackground: #071725;
-    	--BodyWrapperBackground: rgba(11 ,36, 56, 0.8);
+    	--BodyWrapperBackground: rgba(11 ,36, 56, 0.9);
     	--NavPaneBackgroundColor: #081A2A;
     	--InputBackgroundColor: #163A54;
     	--TabBorder: #102D43;
@@ -24,8 +24,9 @@ a, .Linklike, .Name, #PageFooter #ImportantLinks li #AddIdeaLink, h4.bmGuardianS
 	text-shadow: 0 0 0.15em color-mix(in srgb, currentColor 85%, white);
 }
 
-#HeadlineBackground {
-    content: url('https://thepsychicmewtwo.github.io/gamebanana-css/assets/mewtwo/mewfloat.gif');
-    width: 100%;
-    opacity: 80%;
+header#MainContentHeader {
+    background: url('https://thepsychicmewtwo.github.io/gamebanana-css/assets/mewtwo/mewfloat.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
