@@ -1,4 +1,5 @@
 @import url('https://thepsychicmewtwo.github.io/gamebanana-css/gb-main.css');
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700&family=JetBrains+Mono&display=swap');
 
 :root {
 	--BodyBackground: #100D18;
@@ -14,8 +15,8 @@
 	--LinkHoverColor: #E18BFF;
 	--SubNavigatorActiveTabFontColor: #E18BFF;
 	--SubNavigatorActiveTabBorderColor: #E18BFF;
-    --DefaultTextFontFamily: "Exo 2", sans-serif;
-    --DefaultTechnicalFontFamily: "Share Tech Mono", monospace;
+    --DefaultTextFontFamily: "Oxanium", sans-serif;
+    --DefaultTechnicalFontFamily: "JetBrains Mono", monospace;
 }
 
 img, spriteIcon, .SpriteIcon, #SubNavigator li spriteIcon, #SubNavigator li:hover spriteIcon, button spriteIcon, button:hover spriteIcon, .ButtonLike spriteIcon, .ButtonLike:hover spriteIcon, .Record .Stats spriteIcon, .PostFooter, span.stats-icon>img {
