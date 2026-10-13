@@ -39,4 +39,13 @@ header#MainContentHeader {
     background-size: cover;
 }
 
+#PageTitle::after {
+    content: "SUPPORT ME ON KO-FI";
+    font-size: inherit;            
+	  display: block;
+	  visibility: visible;
+    color: var(--DefaultBlueColor);
+    text-shadow: 0 0 0.5em rgba(167, 123, 235, 0.6), 0 0 1em rgb(0 0 0);
+}
+
 /* Credits to MythsList for some code lines */
